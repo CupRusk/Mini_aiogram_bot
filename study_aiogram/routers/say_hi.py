@@ -1,6 +1,6 @@
 from aiogram import Router, F
 from aiogram.types import Message
-from study_aiogram.main import main_kb
+from keyboards import main_kb
 import random
 
 router = Router()

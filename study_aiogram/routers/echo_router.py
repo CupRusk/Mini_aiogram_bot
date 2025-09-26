@@ -1,7 +1,7 @@
 from aiogram import F, Router 
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 import asyncio
-from study_aiogram.main import main_kb
+from keyboards import main_kb
 
 router = Router()
 
